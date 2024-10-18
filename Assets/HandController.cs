@@ -43,7 +43,9 @@ public class HandController : MonoBehaviour
             ball = Instantiate(Fireball);
             ball.transform.position = transform.position + translation;
             fire = true;
-        } 
+        } else {
+            fire = false;
+        }
         if (fire == true) {
             anim.SetBool("Click", true);
             }
