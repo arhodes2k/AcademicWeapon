@@ -563,7 +563,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820090734}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -623,6 +623,7 @@ MonoBehaviour:
   Aplus: {fileID: 7171531930799840719, guid: db78dd69441084041895df885901800f, type: 3}
   Bplus: {fileID: 5834367285240350183, guid: 18e25fb7aa56e4efbb81f774cba8e9da, type: 3}
   Cminus: {fileID: 5829256902030479437, guid: e9bae62805ee147c9ad54e41be92e9d8, type: 3}
+  score: 0
 --- !u!4 &820090737
 Transform:
   m_ObjectHideFlags: 0
@@ -630,8 +631,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820090734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -0.13523148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10, y: -3.5066154, z: -0.13523148}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -935,7 +936,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

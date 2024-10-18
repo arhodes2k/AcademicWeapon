@@ -21,6 +21,8 @@ public class Generator : MonoBehaviour
     float maxATime = 75f;
     float maxBTime = 8f;
     float maxCTime = 5f;
+    public int score;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +54,7 @@ public class Generator : MonoBehaviour
     }
     void aSpawn () {
         GameObject a;
-        float aTime = Random.Range(minATime, maxATime);
+        aTime = Random.Range(minATime, maxATime);
         a = Instantiate(Aplus);
         Invoke("aSpawn", aTime);
         a.transform.position = transform.position;

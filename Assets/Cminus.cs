@@ -7,6 +7,7 @@ public class Cminus : MonoBehaviour
     float move;
     float speed = -2f;
     float bound = -10f;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class Cminus : MonoBehaviour
         if(collision.tag == "Player"){
             Destroy(gameObject);
              Debug.Log("hit player");
+             score = score - 3;
         }
         if(collision.tag == "fire"){
             Destroy(gameObject);

@@ -7,6 +7,7 @@ public class Aplus : MonoBehaviour
     float move;
     float speed = -2f;
     float bound = -10f;
+   // public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class Aplus : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.tag == "Player"){
             Destroy(gameObject);
+            //sscore = score + 5;
         }
         if(collision.tag == "fire"){
             Destroy(gameObject);

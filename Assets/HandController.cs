@@ -48,8 +48,7 @@ public class HandController : MonoBehaviour
         }
         if (fire == true) {
             anim.SetBool("Click", true);
-            }
-            else {
+            } else {
             anim.SetBool("Click", false);
         }
             

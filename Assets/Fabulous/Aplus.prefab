@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7171531930799840690}
   - component: {fileID: 7171531930799840717}
   - component: {fileID: 7171531930799840716}
+  - component: {fileID: 1747860202451371216}
   m_Layer: 0
   m_Name: Aplus
   m_TagString: GREAT
@@ -129,3 +130,23 @@ PolygonCollider2D:
       - {x: 0.55, y: -0.55}
       - {x: 0.75, y: -0.45000002}
       - {x: 0.75, y: 0.55}
+--- !u!95 &1747860202451371216
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171531930799840719}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aeb092164d2b4693b1b8821d07e0c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
