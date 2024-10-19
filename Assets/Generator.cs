@@ -21,7 +21,7 @@ public class Generator : MonoBehaviour
     float maxATime = 75f;
     float maxBTime = 8f;
     float maxCTime = 5f;
-    public int score;
+   // public int score;
     
 
     // Start is called before the first frame update
@@ -34,9 +34,7 @@ public class Generator : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-      
-        
+    {   
      if (goingUp == true){ 
              transform.Translate(0f, speed * Time.deltaTime, 0);
         
@@ -50,7 +48,6 @@ public class Generator : MonoBehaviour
                 goingUp = true; 
               }
         }
-   
     }
     void aSpawn () {
         GameObject a;
